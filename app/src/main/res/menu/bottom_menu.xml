@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/bottom_trips"
+        android:icon="@drawable/baseline_airplane_ticket_24_ffff"
+        android:title="Trips"/>
+    <item
+        android:id="@+id/bottom_filter"
+        android:icon="@drawable/baseline_filter_list_24"
+        android:title="Filter"/>
+    <item
+        android:id="@+id/bottom_favorites"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="Favorites"/>
+    <item
+        android:id="@+id/bottom_account"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Profile"/>
+</menu>

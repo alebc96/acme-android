@@ -1,0 +1,91 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+            android:id="@+id/image_card_view"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/image_border"
+            android:scaleType="fitXY"
+            android:maxHeight="120dp"
+            app:srcCompat="@drawable/baseline_airplane_ticket_24"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/city_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paris"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fecha_salida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salida: 5/12/2023"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/fecha_llegada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Llegada 12/12/2023"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/precio_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$230"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_favorite"
+            android:layout_width="20dp"
+            android:elevation="5dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/baseline_favorite_border_24"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

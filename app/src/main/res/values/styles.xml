@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--change color of switch-->
+    <style name="mySwitch">
+        <item name="android:colorControlActivated">@android:color/background_dark</item>
+    </style>
+
+    <style name="MyDatePickerDialogTheme" parent="Theme.AppCompat.Dialog">
+
+    </style>
+
+</resources>
