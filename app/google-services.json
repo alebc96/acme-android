@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "621445691748",
+    "project_id": "acme-android-e2e53",
+    "storage_bucket": "acme-android-e2e53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621445691748:android:5eab5b84a1c35985db2271",
+        "android_client_info": {
+          "package_name": "com.alebc96.acme_travel_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621445691748-b2vhbdbvfccpon29let6q6vpt87jtee2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alebc96.acme_travel_app",
+            "certificate_hash": "87e518310a135493803e64c6cc90ace0143dec9a"
+          }
+        },
+        {
+          "client_id": "621445691748-jso7r0mjnnm99voro7kudplsi6skp34f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOgTfivEdN0SRG7SQbtF3hf8G34Ib_26g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621445691748-jso7r0mjnnm99voro7kudplsi6skp34f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
